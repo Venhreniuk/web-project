@@ -7,29 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mySite</title>
     <link rel="shortcut icon" href="img/figma-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header class="header" style="background-image: url(img/Rectangle\ 9.png) ;height: 927px;">
+    <header>
+        <div class="header-container">
+            <img id="Figma Logo" src="img/Figma Land.png" alt="Figma-Logo">
         <nav class="header__nav">
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
-            <a href="#">Contact Us</a>
+            <a class="nav-item" href="#">Home</a>
+            <a class="nav-item" href="#">Product</a>
+            <a class="nav-item" href="#">Pricing</a>
+            <a class="nav-item" href="#">About</a>
+            <a class="nav-item" href="#">Contact Us</a>
         </nav>
         <div class="header__nav__img">
-            <img id="Figma Logo" src="img/Figma Land.png" alt="Figma-Logo">
             <img id="twitter" src="img/twitter.png" alt="twitter">
             <img id="facebook" src="img/facebook.png" alt="facebook">
             <img id="Linkedin" src="img/link.png" alt="Linkedin">
         </div>
+    </div>
         <div class="header__tittle">
-            <h1 class="header__tittle__main" style="color:white">The best products start with Figma</h1>
+            <h1 class="header__tittle__main" style="color:white">The best products <br> start with Figma</h1>
             <p class="header__tittle__sub" style="color:white">Most calendars are designed for teams. Slate is designed
                 for freelancers</p>
-        </div>
+                </div>
+        <div class="header__button">
         <button class="header__tittle__button">try for Free</button>
+        </div>
     </header>
     <section class="features">
         <h2 class="features__tittle">Features</h2>
@@ -64,9 +69,12 @@
         </div>
     </section>
     <section class="organize">
-        <div class="organize__img">
+    <!--<div class="organize__img">
             <img src="img/woman tablet.png" alt="woman tablet">
-        </div>
+        </div> -->
+
+
+
         <h2 class="organize__tittle">Fastest way to
             organize</h2>
         <p class="organize__tittle_sub">Most calendars are designed for teams.
